@@ -1,0 +1,95 @@
+/* Reset some default margin and padding for the body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+div {
+    height: 80px;
+    background-color:#1db954;
+    border: 5px solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* Style the navigation list */
+ul {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+/* Style list items in the navigation */
+li {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px; /* Adjusted space between elements */
+}
+
+/* Style the links in the navigation */
+li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+li a:hover {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+}
+
+/* Center the image */
+center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px; /* Adjusted height for more space at the top */
+    margin-top: 20px; /* Added margin for space between navigation and image */
+}
+
+/* Style the section with the buttons */
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+input[type="button"] {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="button"]:hover {
+    background-color: #1a8248;
+}
+
+/* Audio controls styling */
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
